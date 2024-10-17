@@ -193,7 +193,8 @@ protected:
                                        int nodeStartIndex, int aggregateIndex,
                                        bool recordNormal, TraversalStack *subtree,
                                        float *boxHits, bool& notFound, int& nodesVisited) const;
-
+                        
+    public:
     // members
     CostHeuristic costHeuristic;
     int nNodes, nLeafs, leafSize, nBuckets, maxDepth, depthGuess;
