@@ -9,9 +9,9 @@ enum class LoadingOption {
     ObjTriangles
 };
 
-std::vector<std::pair<std::string, LoadingOption>> files;
-std::string instanceFilename;
-std::string csgFilename;
+extern std::vector<std::pair<std::string, LoadingOption>> files;
+extern std::string instanceFilename;
+extern std::string csgFilename;
 
 template<size_t DIM>
 class SceneLoader {
